@@ -1,0 +1,2 @@
+INSERT INTO `dede_member_msg` VALUES('1','1','admin','192.168.2.108','1','1517387498','<img src=\'/member/templets/images/smiley/1.gif\' st<x>yle=\'cursor: pointer; position: relative;\'>');
+INSERT INTO `dede_member_msg` VALUES('2','1','admin','192.168.2.108','1','1517387507','<img src=\'/member/templets/images/smiley/32.gif\' st<x>yle=\'cursor: pointer; position: relative;\'>');

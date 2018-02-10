@@ -1,0 +1,3 @@
+INSERT INTO `dede_member_feed` VALUES('1','1','admin','Sunyuklong','feedback','191','1517387181',' 评论了文章 &lt;a href=&#039;/plus/view.php?aid=191&#039;&gt;[百度资源]前任3：再见前任&lt;/a&gt;','好好好','1');
+INSERT INTO `dede_member_feed` VALUES('2','1','admin','Sunyuklong','addfriends','0','1517388317',' 与 &lt;a href=&#039;/member/index.php?uid=daigaole&#039;&gt;daigaole&lt;/a&gt;成为好友','','1');
+INSERT INTO `dede_member_feed` VALUES('3','1','admin','Sunyuklong','feedback','195','1517885480',' 评论了文章 &lt;a href=&#039;/plus/view.php?aid=195&#039;&gt;前任3：再见前任（百度云下载迅雷下载）&lt;/a&gt;','','1');

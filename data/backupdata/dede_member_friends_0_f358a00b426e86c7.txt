@@ -1,0 +1,1 @@
+INSERT INTO `dede_member_friends` VALUES('1','3','daigaole','我在马路边','1','1517388317','0','1','');

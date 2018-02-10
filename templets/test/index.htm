@@ -1,0 +1,253 @@
+{dede:include filename="head.htm"/}
+
+
+
+<!-- banner图开始 -->
+<div class="met-banner " data-height='||'> 
+
+{dede:arclist row='5' titlelen='60' typeid='5' addfields='lj' channelid='17'}
+               
+<div class="slick-slide"> <img class="cover-image1" src="[field:litpic/]"  sizes="(max-width: 767px) 500px" alt="[field:title/]"></div>
+
+{/dede:arclist}
+
+
+ </div>
+ <!-- banner结束 -->
+ 
+ 
+ 
+ <!-- 服务范围开始 -->
+<!-- <div class="met-index-service met-index-body">
+  <div class="container">
+    <h3 class="invisible" data-plugin="appear" data-animate="fade" data-repeat="false">服务范围</h3>
+    <p class="desc invisible animation-delay-100" data-plugin="appear" data-animate="fadeInDown" data-repeat="false">—— SERVICE ——</p>
+    <p class="desc invisible animation-delay-200" data-plugin="appear" data-animate="fadeInDown" data-repeat="false">这里是描述</p>
+    <div class="slider invisible animation-delay-300" data-plugin="appear" data-animate="slide-bottom" data-repeat="false" id="serviceSlick" data-show="1 2 4 4 "> 
+      <div class="service_item"> <a href="fuwufanwei/keji_Science/" title="科技 Science"> <img class="img-responsive" alt="科技 Science" src="{dede:global.cfg_templets_skin/}/images/1-1G22P9321T23.png" />
+        <h4>科技 Science</h4>
+        <p>社会上习惯于把科学和技术联在一起，统称为“科技”。实际二者既有密切联系，又有重要区别。科学解决理论问题，技术解决实际问题。</p>
+        </a> </div>
+      
+      <div class="service_item"> <a href="fuwufanwei/jianshe_Factory/" title="建设 Factory"> <img class="img-responsive" alt="建设 Factory" src="{dede:global.cfg_templets_skin/}/images/1-1G22P93312U2.png" />
+        <h4>建设 Factory</h4>
+        <p>建筑是建筑物与构筑物的总称。是人们为了满足社会生活需要，利用所掌握的物质技术手段，并运用一定的科学规律、风水理念和美学法则创造的人工环境。有些分类为了明确表达使用性，会将建筑物与人们不长期占用的非建筑结构物区别，另外有些建筑学者也为了避免混淆，而刻意在其中把外型经过人们具有意识创作出来的建筑物细分为</p>
+        </a> </div>
+      
+      <div class="service_item"> <a href="fuwufanwei/xinxi_Information/" title="信息 Information"> <img class="img-responsive" alt="信息 Information" src="{dede:global.cfg_templets_skin/}/images/1-1G22P9333Y10.png" />
+        <h4>信息 Information</h4>
+        <p>信息，指音讯、消息、通讯系统传输和处理的对象，泛指人类社会传播的一切内容。人通过获得、识别自然界和社会的不同信息来区别不同事物，得以认识和改造世界。</p>
+        </a> </div>
+      
+      <div class="service_item"> <a href="fuwufanwei/wangluoziyuan_Network_resources/" title="网络资源 Network resources"> <img class="img-responsive" alt="网络资源 Network resources" src="{dede:global.cfg_templets_skin/}/images/1-1G22P93413W8.png" />
+        <h4>网络资源 Network resources</h4>
+        <p>网络资源主要是指借助于网络环境可以利用的各种信息资源的总和。网络资源又称网络信息资源。</p>
+        </a> </div>
+      
+      <div class="service_item"> <a href="fuwufanwei/zichanguanli_Assets/" title="资产管理 Assets"> <img class="img-responsive" alt="资产管理 Assets" src="{dede:global.cfg_templets_skin/}/images/1-1G22P93516250.png" />
+        <h4>资产管理 Assets</h4>
+        <p>资产管理业务是指资产管理人根据资产管理合同约定的方式、条件、要求及限制，对客户资产进行经营运作，为客户提供证券、基金及其他金融产品，并收取费用的行为。</p>
+        </a> </div>
+      
+      <div class="service_item"> <a href="fuwufanwei/guanggao_Advertising/" title="广告 Advertising"> <img class="img-responsive" alt="广告 Advertising" src="{dede:global.cfg_templets_skin/}/images/1-1G22P93601A8.png" />
+        <h4>广告 Advertising</h4>
+        <p>广告是为了某种特定的需要，通过一定形式的媒体，公开而广泛地向公众传递信息的宣传手段。</p>
+        </a> </div>
+       </div>
+  </div>
+</div>  -->
+
+<!-- 服务范围结束 -->
+
+
+
+<!-- 服务案例开始 -->
+<div class="met-index-product met-index-body">
+  <div class="container">
+    <h3 class="invisible" data-plugin="appear" data-animate="fade" data-repeat="false">最新影视</h3>
+    <p class="desc invisible animation-delay-100" data-plugin="appear" data-animate="fadeInDown" data-repeat="false">—— CASE——</p>
+    <p class="desc invisible animation-delay-200" data-plugin="appear" data-animate="fadeInDown" data-repeat="false">走心影视资源，为您创作更高的价值</p>
+    <div class='invisible animation-delay-300' data-plugin="appear" data-animate="fadeInUp" data-repeat="false">
+      <ul class="nav nav-tabs">
+        
+		
+		{dede:channel       row='3'        type ='top'       reid ='1'        }
+          <li><a href='[field:typelink/]' class='link active'>[field:typename/]</a> </li>
+		  
+		  {/dede:channel}
+        
+		
+		
+      </ul>
+    </div>
+	
+    <div class="slider index_product animation-delay-400" id="product_list" data-show="1 2 4 4 " data-plugin="appear" data-animate="slide-bottom" data-repeat="false" > 
+	
+	
+	{dede:likearticle mytypeid='1,2,3' titlelen='50' row='20'}
+	<div data-type="list_113" >
+        <div class="widget widget-shadow">
+          <figure class="widget-header cover"> <a href="[field:arcurl/]" title="[field:title/]" target='_self'>
+            <div class="mask"> </div>
+            <img class="img-responsive" alt="[field:title/]" src="[field:picname/]"/ style=" height: 270px;"> </a> </figure>
+          <h4 class="widget-title"> <a href="[field:arcurl/]" title="[field:title/]" target='_self'>[field:title/]</a>
+            <p>[field:description function="cn_substr(@me,70)"/]...</p>
+          </h4>
+        </div>
+      </div>
+ {/dede:likearticle}
+      <!-- End Example Lazy Loading --> 
+    </div>
+	
+	
+    <a href="/plus/list.php?tid=2" class="index_more"></a> <a href="/plus/list.php?tid=2" class="more">MORE</a> </div>
+</div> 
+
+<!-- 服务案例结束 -->
+
+
+
+
+
+
+<div class="met-index-product met-index-body">
+  <div class="container">
+    <h3 class="invisible" data-plugin="appear" data-animate="fade" data-repeat="false">推荐影视</h3>
+<div class='invisible animation-delay-300' data-plugin="appear" data-animate="fadeInUp" data-repeat="false">
+      <ul class="nav nav-tabs">
+        
+		
+		{dede:channel       row='7'        type ='top'       reid ='1'        }
+          <li><a href='[field:typelink/]' class='link active'>[field:typename/]</a> </li>
+		  
+		  {/dede:channel}        	
+      </ul>
+    </div> </div> </div>
+
+
+
+<div class="met-product animsition type-1">
+  <div class="container">
+    <div class='row'>
+      <ul class="blocks-2 blocks-sm-2 blocks-md-4 blocks-xlg-5  met-page-ajax met-grid" id="met-grid" data-scale='0.625'>
+          
+	  {dede:likearticle mytypeid='1,2,3,4,5,6,7' titlelen='25' row='10'  orderby ='pubdate'}
+	   <li class=" shown">
+          <div class="widget widget-shadow">
+            <figure class="widget-header cover"> <a href="[field:arcurl/]" title="[field:shorttitle/]" target='_self'>
+              <div class="mask"> </div>
+              <img class="cover-image"  src="[field:picname/]" alt="[field:title/]"> </a> </figure>
+            <h4 class="widget-title"> <a href="[field:arcurl/]"  title="[field:title/]" target='_self'>[field:title/]</a>
+              <p>[field:description function="cn_substr(@me,30)"/]...</p>
+            </h4>
+          </div>
+        </li>
+		{/dede:likearticle}		
+      </ul>
+      </div></div>
+
+
+
+
+
+
+<!-- 公司简介开始 -->
+
+{dede:likearticle mytypeid='1,2,3,4,5,6,7' titlelen='20' row='1'  orderby ='pubdate'}
+<div class="met-index-about met-index-body">
+  <div class="container ">
+    <div class="about_img col-sm-12 col-md-4 col-lg-4" data-animate="zoomIn"  data-plugin="appear" data-repeat="false"> <img data-original="[field:picname/]" / style="display: inline;height: 270px;"></div>
+    <div class="about_cont col-sm-12 col-md-8 col-lg-8">
+      <h3 class="invisible" data-plugin="appear" data-animate="fade" data-repeat="false">最新发布 > [field:title/]</h3>
+      <p class="desc invisible animation-delay-100" data-plugin="appear" data-animate="fadeInDown" data-repeat="false" >[field:typelink/]</p>
+      <p class="desc invisible animation-delay-200" data-plugin="appear" data-animate="fadeInDown" data-repeat="false"></p>
+      <div class="met-editor no-gallery lazyload clearfix invisible animation-delay-300" data-plugin="appear" data-animate="fadeInDown" data-repeat="false">  [field:description function="cn_substr(@me,700)"/]...</div>
+      <a href="[field:arcurl/]" class="more" data-animate="bounceIn"></a> </div>
+  </div>
+</div>{/dede:likearticle}
+
+
+<!-- 公司简介结束 -->
+
+
+<!-- 团队介绍开始 -->
+<!-- <div class="met-index-team met-index-body">
+  <div class="team_bg"> <img src="{dede:global.cfg_templets_skin/}/images/1484739112.jpg" class="bg_img">
+    <div class="container ">
+      <div class="slider" id="exampleResponsive"> <div class="team_item"   > <a href="jituangaikuang/jingyingtuandui/6.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1G22Q101290-L.jpg" alt=""></a>
+          <div class="team_cont">
+            <p class="team_title">尹布艾罗</p>
+            <p class="team_keywords">空间处理独具匠心</p>
+            <p class="team_desc">就我自己而言，最不喜欢的是死板的空间，就是空间的功能已经被完全限定死了，只能照着这样用。我想一个可以被创造性使用的空间，才...</p>
+            <a href="jituangaikuang/jingyingtuandui/6.html" class="team_more">MORE</a> </div>
+        </div>
+<div class="team_item"   > <a href="jituangaikuang/jingyingtuandui/5.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1G22Q100360-L.jpg" alt=""></a>
+          <div class="team_cont">
+            <p class="team_title">扎哈劳研世</p>
+            <p class="team_keywords">建筑师艺术名家</p>
+            <p class="team_desc">城市是一本打开的书，从中可以看到它的抱负。就我自己而言，最不喜欢的是死板的空间，就是空间的功能已经被完全限定死了，只能照着...</p>
+            <a href="jituangaikuang/jingyingtuandui/5.html" class="team_more">MORE</a> </div>
+        </div>
+<div class="team_item"   > <a href="jituangaikuang/jingyingtuandui/4.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1G22Q059560-L.jpg" alt=""></a>
+          <div class="team_cont">
+            <p class="team_title">弗兰克阿布西朗</p>
+            <p class="team_keywords">空间处理独具匠心</p>
+            <p class="team_desc">就我自己而言，最不喜欢的是死板的空间，就是空间的功能已经被完全限定死了，只能照着这样用。我想一个可以被创造性使用的空间，才...</p>
+            <a href="jituangaikuang/jingyingtuandui/4.html" class="team_more">MORE</a> </div>
+        </div>
+<div class="team_item"   > <a href="jituangaikuang/jingyingtuandui/3.html"><img src="{dede:global.cfg_templets_skin/}/images/1-1G22Q05U30-L.jpg" alt=""></a>
+          <div class="team_cont">
+            <p class="team_title">罗尼索尔斯</p>
+            <p class="team_keywords">建筑师艺术名家</p>
+            <p class="team_desc">建筑所体现的不是日常的平凡琐事，而是永恒的、根本的、普遍的问题和人类存在的价值，它所涉及的不是事物实际的状态，而是事物可能...</p>
+            <a href="jituangaikuang/jingyingtuandui/3.html" class="team_more">MORE</a> </div>
+        </div>
+ </div>
+    </div>
+  </div>
+</div> -->
+<!-- 团队介绍结束 -->
+
+<!--
+--> 
+
+<!-- 资讯中心开始 -->
+<div class="met-index-news met-index-body">
+  <div class="container">
+    <h3 class="invisible" data-plugin="appear" data-animate="fade" data-repeat="false">资讯中心</h3>
+    <p class="desc invisible animation-delay-100" data-plugin="appear" data-animate="fadeInDown" data-repeat="false">—— NEWS ——</p>
+    <p class="desc invisible animation-delay-200" data-plugin="appear" data-animate="fadeInDown" data-repeat="false"></p>
+    <ul class="blocks-2" data-scale='0.6'>
+      
+	  {dede:likearticle mytypeid='1,2,3' titlelen='50' row='6'}
+	  <li class="invisible animation-delay-300" data-plugin="appear" data-animate="fadeInRight" data-repeat="false">
+        <div class="media media-lg">
+          <div class="media-body">
+            <h4 class="media-heading"> <span class="news_time">[field:pubdate function="GetDateTimeMK(@me)" /]</span> <a href="[field:arcurl/]" title="[field:title/]" target='_self' > [field:title/]</a> </h4>
+            <p class="des">[field:description function="cn_substr(@me,700)"/]...</p>
+            <p class="info"> </p>
+          </div>
+        </div>
+      </li>
+	  {/dede:likearticle}
+	  
+
+    </ul>
+    <a href="/plus/list.php?tid=2"  class="more" title="资讯中心" target='_self'></a> </div>
+</div>
+<!-- 资讯中心结束 -->
+
+<!-- 友情链接开始 -->
+<div class="met-links text-center">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li>友情链接 :</li>
+	  
+	 {dede:flink titlelen='10' row='10' type='text'}  [field:link /]  {/dede:flink}
+	 
+    </ol>
+  </div>
+</div>
+<!-- 友情链接结束 -->
+
+{dede:include filename="footer.htm"/}

@@ -1,0 +1,3 @@
+INSERT INTO `dede_co_mediaurls` VALUES('2','6dfff0c52e3653aab5839d4aad175d19','/uploads/allimg/c180130/151HM1323Z-11958.png');
+INSERT INTO `dede_co_mediaurls` VALUES('2','e182ac35dd099747681a98f96f618343','/uploads/allimg/c180130/151HM1353F-14S2.jpg');
+INSERT INTO `dede_co_mediaurls` VALUES('2','fb2256c695a32e526fbe131227f57367','/uploads/allimg/c180130/151HM135940-2L06.jpg');

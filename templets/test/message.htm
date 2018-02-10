@@ -1,0 +1,81 @@
+{dede:include filename="head.htm"/}
+<link rel="stylesheet" type="text/css" href="/style/css/styleliuyan.css" media="screen"/>
+
+<div class="met-banner " data-height='300||'>
+  <div class="slick-slide"> <img class="cover-image" src="{dede:global.cfg_templets_skin/}/images/banner1.jpg" srcset='{dede:global.cfg_templets_skin/}/images/banner1.jpg' sizes="(max-width: 767px) 500px" alt="">
+    <div class="banner-text p-5">
+      <div class='container'>
+        <div class='banner-text-con'>
+          <div>
+		  
+            <h1 style="color:;">{dede:field name='typename'/}</h1>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="breadcrumb"> <i class="icon-home"></i><!-- {dede:field.position/}  --></div>
+  <main class="main" role="main">
+    <article class="post">
+      <h1>留言本</h1>
+      <div class="entry">
+        <p>有问题请在这里留言！</p>
+      </div>
+      <!-- <div class="start-ad"> <a href="" title="start主题"><img src="/style/images/start-ad.jpg" alt="start主题"/></a> </div> -->
+      <div class="commentlist">
+        <h3>评论</h3>
+        <ol>
+          
+         {dede:loop table='dede_diyform1' sort='id' row='30' if='ifcheck=1'}
+          <li id="cmt2">
+            <div class="cmt-info">
+              <div class="gravatar"> <img alt="[field:name/]" src="/style/images/0.png" class="avatar avatar-45 photo" height="45" width="45"> </div>
+              <div class="cmt-author"> <a href="[field:arcurl/]" rel="nofollow" target="_blank">[field:name/]</a> </div>
+            </div>
+            <div class="cmt-con">[field:cont/]
+            </div>
+          </li>
+        </ol><br>
+        {/dede:loop}
+        <div class="pagenavi commentpagebar"> </div>
+      </div>
+      <div class="commentsform" id="comment">
+        <h3>发表评论</h3>
+        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <p>
+            <input type="text" name="name" id="name" class="text" value="访客" placeholder="输入你的昵称" tabindex="1"/>
+            <label for="name">昵称（必填）</label>
+          </p>
+          <p>
+            <input type="text" name="email" id="email" class="text" value="" placeholder="输入您的邮箱，我们保证不会公开" tabindex="2"/>
+            <label>邮箱（必填）</label>
+          </p>
+          <p>
+            <input type="text" name="web" id="web" class="text" value="" placeholder="输入您的网站地址" tabindex="3"/>
+            <label>网址</label>
+          </p>
+          <p>
+            <textarea name="cont" id="cont" tabindex="5" placeholder="输入您要说的内容"></textarea>
+          </p>
+          <input type="hidden" name="dede_fields" value="name,text;email,text;web,text;cont,multitext" />
+          <input type="hidden" name="dede_fieldshash" value="58550b4b7767de961389039a9b624683" />
+          <p>
+            <input type="submit" name="submit" class="submit" value="提交评论" tabindex="6" onclick="return zbp.comment.post()"/>
+          </p>
+          <p> <a rel="nofollow" id="cancel-reply" href="#comment" style="display:none;">取消回复</a> </p>
+          <p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+        </form>
+      </div>
+    </article>
+  </main>
+  </div>
+
+
+{dede:include filename="footer.htm"/}

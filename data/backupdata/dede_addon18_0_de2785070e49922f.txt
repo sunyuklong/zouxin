@@ -1,0 +1,8 @@
+INSERT INTO `dede_addon18` VALUES('4','9','','','0.0.0.0','');
+INSERT INTO `dede_addon18` VALUES('5','9','','','0.0.0.0','');
+INSERT INTO `dede_addon18` VALUES('6','9','','','0.0.0.0','');
+INSERT INTO `dede_addon18` VALUES('7','9','','','0.0.0.0','');
+INSERT INTO `dede_addon18` VALUES('8','9','','','0.0.0.0','<span style=\"color: rgb(0, 0, 0); font-family: tt_1, Arial, 微软雅黑; font-size: 14px; line-height: 22px; text-align: center;\">即隐藏于人类大脑深处的一个小核，虽然小，但它却主掌我们的感觉与冥想，在某些宗教理论中被称为人的第三只眼睛。正是这只&ldquo;隐秘的&rdquo;的天眼，一直带给人类无穷的想象力与创造力，推动我们的文明前进。</span><br style=\"margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: tt_1, Arial, 微软雅黑; font-size: 14px; line-height: 22px; text-align: center;\" />\r\n<span style=\"color: rgb(0, 0, 0); font-family: tt_1, Arial, 微软雅黑; font-size: 14px; line-height: 22px; text-align: center;\">&ldquo;对未知神秘事物好奇&rdquo;，是allvery一直所强调的。那些穿插于人类千年历史的宗教、战争、文化、种族、生物、灵异等都成为了构建allvery的重要元素，并通过不同形式体现在allvery的每一件单品中。你&hellip;</span>');
+INSERT INTO `dede_addon18` VALUES('12','9','','','0.0.0.0','产品详细内容。。。。');
+INSERT INTO `dede_addon18` VALUES('13','9','','','0.0.0.0','');
+INSERT INTO `dede_addon18` VALUES('14','9','','','0.0.0.0','');

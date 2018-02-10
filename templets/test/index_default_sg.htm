@@ -1,0 +1,82 @@
+{dede:include filename="head.htm"/}
+
+<div class="met-banner " data-height='300||'>
+  <div class="slick-slide"> <img class="cover-image" src="{dede:global.cfg_templets_skin/}/images/banner1.jpg" srcset='{dede:global.cfg_templets_skin/}/images/banner1.jpg' sizes="(max-width: 767px) 500px" alt="">
+    <div class="banner-text p-5">
+      <div class='container'>
+        <div class='banner-text-con'>
+          <div>
+		  
+            <h1 style="color:;">{dede:field name='typename'/}</h1>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="met-column-nav product-search-body bordernone">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 sidebar_tile">
+        <ul class="met-column-nav-ul">
+		
+		{dede:channel       row='3'        type ='top'       reid ='1'        }
+          <li><a href='[field:typelink/]' class='link active'>[field:typename/]</a> </li>
+		  
+		  {/dede:channel}
+		  
+          <!-- <li> <a href="#" class="link ">能源</a> </li>
+          
+          <li> <a href="#" class="link ">科技</a> </li> -->
+          
+        </ul>
+      </div>
+      <div class="col-md-3 product_search ">
+        <form  name="formsearch" action="/plus/search.php">
+          <input type="hidden" name="kwtype" value="0" />
+          <div class="form-group">
+            <div class="input-search">
+              <button type="submit" class="input-search-btn"><i class="icon wb-search" aria-hidden="true"></i></button>
+              <input type="text" class="form-control" name="q" value="" placeholder="Search">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="met-product animsition type-1">
+  <div class="container">
+    <div class='row'>
+      <ul class="blocks-2 blocks-sm-2 blocks-md-4 blocks-xlg-5  met-page-ajax met-grid" id="met-grid" data-scale='0.625'>
+       
+	   
+	{dede:likearticle mytypeid='1,2,3,4,5,6,7' titlelen='20' row='12'  orderby ='pubdate'}
+	   <li class=" shown">
+          <div class="widget widget-shadow">
+            <figure class="widget-header cover"> <a href="[field:arcurl/]" title="[field:title/]" target='_self'>
+              <div class="mask"> </div>
+              <img class="cover-image" src="[field:picname/]" alt="[field:title/]" style='height:200px;'> </a> </figure>
+            <h4 class="widget-title"> <a href="[field:arcurl/]" title="[field:title/]" target='_self'>[field:title/]</a>
+              <p>[field:description function="cn_substr(@me,35)"/]...</p>
+            </h4>
+          </div>
+        </li>
+	{/dede:likearticle}
+		
+	
+	
+		
+		
+      </ul>
+      <div>
+        <div class='met_pager'> {dede:pagelist listitem="info,index,end,pre,next,pageno,option"listsize="1"/}<!-- <span class="pageinfo">共 <strong>1</strong>页<strong>6</strong>条记录</span> -->
+ </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{dede:include filename="footer.htm"/}

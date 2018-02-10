@@ -1,0 +1,1 @@
+<div class="slick-slide"> <img class="cover-image" src="[field:litpic/]"  sizes="(max-width: 767px) 500px" alt="[field:title/]"></div>

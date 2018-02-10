@@ -1,0 +1,66 @@
+{dede:include filename="head.htm"/}
+
+<section class="met-shownews animsition">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 met-shownews-body">
+        <div class="row">
+          <div class="met-shownews-header">
+            <h1>{dede:field.title/}</h1>
+            <div class="info"> <span>{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</span> <span> {dede:adminname/} </span> <span> <i class="icon wb-eye margin-right-5" aria-hidden="true"></i>
+			<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}"type='text/javascript' language="javascript"></script>
+			<script src="#"type='text/javascript' language="javascript"></script> </span> </div>
+          </div>
+          <div class="met-editor lazyload clearfix">
+            <div>
+              <div class="fw postbody" style="padding: 0px; margin: 0px auto; width: 1160px; line-height: 24px; font-size: 13px; color: rgb(106, 106, 106); font-family: Arial, 微软雅黑; white-space: normal;"> <p>
+			  
+			  {dede:field.body/}
+			  </p>
+ </div>
+              <div id="metinfo_additional"></div>
+            </div>
+            <div class="center-block met_tools_code"></div>
+          </div>
+          <div class="met-shownews-footer">
+            <ul class="pager pager-round">
+              <li class='previous'><span aria-hidden='true' class='hidden-xs'><a>{dede:prenext get='pre'/}</a></span></li> 
+              <li class='next'><span aria-hidden='true' class='hidden-xs'><a>{dede:prenext get='next'/}</a></span></li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="row">
+          <div class="met-news-bar">
+            <form  name="formsearch" action="/plus/search.php">
+              <input type="hidden" name="kwtype" value="0" />
+              <div class="form-group">
+                <div class="input-search">
+                  <button type="submit" class="input-search-btn"><i class="icon wb-search" aria-hidden="true">¤</i></button>
+                  <input type="text" class="form-control" name="q" placeholder="Search">
+                </div>
+              </div>
+            </form>
+            <div class="recommend news-list-md">
+              <h3>为您推荐</h3>
+              <ul class="list-group list-group-bordered">
+			  
+			  
+			  {dede:likeart row='5' titlelen='40'}
+                <li class="list-group-item"><a href="[field:arcurl/]" title="[field:fulltitle/]" target='_self'>[field:title/]</a></li>
+{/dede:likeart}
+
+
+              </ul>
+            </div>
+            <ul class="column">
+              <li><a href="{dede:field.source/}" title="所有文章" target='_self'>所有文章</a></li>
+              
+            </ul> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{dede:include filename="footer.htm"/}

@@ -1,0 +1,6 @@
+INSERT INTO `dede_member_space` VALUES('1','10','0','admin的空间','','lxblog','','');
+INSERT INTO `dede_member_space` VALUES('2','10','0','Sunyuklong的空间','','person','','');
+INSERT INTO `dede_member_space` VALUES('3','10','0','我在马路边的空间','','person','','');
+INSERT INTO `dede_member_space` VALUES('5','10','0','01的空间','','person','','');
+INSERT INTO `dede_member_space` VALUES('6','10','0','走心02的空间','','person','','');
+INSERT INTO `dede_member_space` VALUES('7','10','0','走心03的空间','','person','','');

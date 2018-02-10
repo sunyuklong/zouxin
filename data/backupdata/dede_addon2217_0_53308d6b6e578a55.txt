@@ -1,0 +1,1 @@
+INSERT INTO `dede_addon2217` VALUES('4','19','','','127.0.0.1','{dede:img text=\'\' width=\'1350\' height=\'400\'} /uploads/150804/1-150P41949415D.jpg {/dede:img}','{dede:img text=\'\' width=\'1350\' height=\'400\'} /uploads/150804/1-150P419494S59.jpg {/dede:img}','{dede:img text=\'\' width=\'1350\' height=\'400\'} /uploads/150804/1-150P4194954c7.jpg {/dede:img}');

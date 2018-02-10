@@ -1,0 +1,5 @@
+INSERT INTO `dede_admin` VALUES('1','10','admin','fb4168443e2a0326b79b','走心Sunyuklong','Sunyuklong','','','1518159371','113.67.164.57');
+INSERT INTO `dede_admin` VALUES('3','10','daigaole','e0807f20d359451c9d03','我在马路边','代高乐','','','1517926081','119.35.253.4');
+INSERT INTO `dede_admin` VALUES('5','5','01','5aed5af92469a50b3562','走心01','01','','','1518005340','117.135.223.27');
+INSERT INTO `dede_admin` VALUES('6','5','02','4bf69960e53b6d9a0bd2','走心02','','','1,2,3,6,7,8,9,5','1517965670','113.67.164.57');
+INSERT INTO `dede_admin` VALUES('7','1','03','bc92a999e4be146d2cc3','走心03','','','1,2,3,6,7,8,9,5','0','');
